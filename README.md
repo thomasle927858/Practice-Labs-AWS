@@ -7,7 +7,7 @@
 [Labs](#labs)
 
 # Terms of Use
-Effective date: September 12, 2021
+Effective date: September 18, 2021
 
 Welcome! The Terms of Use (“Terms”) govern your access to and use of the repository Practice-Labs-AWS (“Repo”) operated by Thomas Le (“thomasle927858”). These Terms apply to your use of the Repo.
 
