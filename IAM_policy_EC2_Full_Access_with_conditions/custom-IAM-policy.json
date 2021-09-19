@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "ec2:*",
+            "Resource": "*",
+            "Condition": {
+                "ForAllValues:StringEquals": {
+                    "ec2:InstanceType": [
+                        "t3.micro"
+                    ],
+                    "aws:RequestedRegion": [
+                        "us-west-1",
+                        "us-west-2",
+                        "us-east-1",
+                        "us-east-2"
+                    ]
+                }
+            }
+        }
+    ]
+}
