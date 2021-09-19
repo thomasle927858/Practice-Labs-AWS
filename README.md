@@ -80,5 +80,7 @@ These Terms shall be governed by the laws of the State of California without reg
 ## Amendments to the Terms of Use
 The Terms may be updated from time to time. You should check the Repo regularly for updates to the Terms. Each time you access or use the Repo, you signify your acceptance and agreement, without limitation or qualification, to be bound by the then current Terms. Modifications take effect as soon as they are posted to the Repo.
 # Labs
-## Example Lab Here
-Example description here
+## IAM_policy_EC2_Full_Access_with_conditions
+Create an IAM policy that allows full access to Amazon EC2, subject to the following conditions:
+- The `ec2:InstanceType` must be `t3.micro` AND
+- The `aws:RequestedRegion` must be in one of the following regions: `["us-west-1", "us-west-2", "us-east-1", "us-east-2"]`
