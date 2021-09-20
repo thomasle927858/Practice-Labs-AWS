@@ -84,3 +84,5 @@ The Terms may be updated from time to time. You should check the Repo regularly 
 Create an IAM policy that allows full access to Amazon EC2, subject to the following conditions:
 - The `ec2:InstanceType` must be `t3.micro` AND
 - The `aws:RequestedRegion` must be in one of the following regions: `["us-west-1", "us-west-2", "us-east-1", "us-east-2"]`
+## Create_launch_template_and_Spot_Fleet_request
+Create a launch template and an EC2 Spot Fleet request using Terraform in AWS
