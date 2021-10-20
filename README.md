@@ -86,3 +86,5 @@ Create an IAM policy that allows full access to Amazon EC2, subject to the follo
 - The `aws:RequestedRegion` must be in one of the following regions: `["us-west-1", "us-west-2", "us-east-1", "us-east-2"]`
 ## Create_launch_template_and_Spot_Fleet_request
 Create a launch template and an EC2 Spot Fleet request using Terraform in AWS
+## NAT_gateway_architecture
+Create a Virtual Private Cloud (VPC), public subnet, private subnet, NAT Gateway in the public subnet, Elastic IP for the NAT Gateway, and an Internet Gateway (which is attached to the VPC). Create a custom route table and associate it to the public subnet; another route table will be created and associated to the private subnet. A custom default security group and default network access control list (network ACL) is defined in the Terraform code. A network ACL is created and applied to the public and private subnets for example purposes.
