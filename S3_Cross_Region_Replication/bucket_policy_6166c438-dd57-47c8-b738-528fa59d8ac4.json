@@ -1,0 +1,19 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Allow full admin access to S3 for the 6166c438-dd57-47c8-b738-528fa59d8ac4 bucket and objects within it",
+      "Action": "s3:*",
+      "Effect": "Allow",
+      "Resource": [
+        "arn:aws:s3:::6166c438-dd57-47c8-b738-528fa59d8ac4",
+        "arn:aws:s3:::6166c438-dd57-47c8-b738-528fa59d8ac4/*"
+      ],
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::AWS-account-ID:user/username"
+        ]
+      }
+    }
+  ]
+}
