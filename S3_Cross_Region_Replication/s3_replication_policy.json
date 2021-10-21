@@ -1,0 +1,35 @@
+{
+  "Version":"2012-10-17",
+  "Statement":[
+    {
+      "Effect":"Allow",
+      "Action":[
+        "s3:GetReplicationConfiguration",
+        "s3:ListBucket"
+      ],
+      "Resource":[
+        "arn:aws:s3:::95fdcd4e-f947-4519-b664-ffb9a47c9a49"
+      ]
+    },
+    {
+      "Effect":"Allow",
+      "Action":[
+        "s3:GetObjectVersionForReplication",
+        "s3:GetObjectVersionAcl",
+        "s3:GetObjectVersionTagging"
+      ],
+      "Resource":[
+        "arn:aws:s3:::95fdcd4e-f947-4519-b664-ffb9a47c9a49/*"
+      ]
+    },
+    {
+      "Effect":"Allow",
+      "Action":[
+        "s3:ReplicateObject",
+        "s3:ReplicateDelete",
+        "s3:ReplicateTags"
+      ],
+      "Resource":"arn:aws:s3:::6166c438-dd57-47c8-b738-528fa59d8ac4/*"
+    }
+  ]
+}
