@@ -92,4 +92,4 @@ Create a Virtual Private Cloud (VPC), public subnet, private subnet, NAT Gateway
 ## S3_Cross_Region_Replication
 Configure Amazon S3 Cross Region Replication from a source bucket in a region to a destination bucket in another region.
 ## Gateway_VPC_Endpoint_for_S3
-Create a Virtual Private Cloud (VPC) gateway endpoint for Amazon S3. VPC endpoints are highly available and allow connections between a VPC and supported services, such as Amazon S3, so VPC connectivity to the Internet is not required.
+Create a gateway Virtual Private Cloud (VPC) endpoint for Amazon S3. VPC endpoints are highly available and allow connections between a VPC and supported services, such as Amazon S3, so VPC connectivity to the Internet is not required.
