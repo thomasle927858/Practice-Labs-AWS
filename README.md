@@ -80,6 +80,7 @@ These Terms shall be governed by the laws of the State of California without reg
 ## Amendments to the Terms of Use
 The Terms may be updated from time to time. You should check the Repo regularly for updates to the Terms. Each time you access or use the Repo, you signify your acceptance and agreement, without limitation or qualification, to be bound by the then current Terms. Modifications take effect as soon as they are posted to the Repo.
 # Labs
+The labs listed here are sorted by date in ascending order.
 ## IAM_policy_EC2_Full_Access_with_conditions
 Create an IAM policy that allows full access to Amazon EC2, subject to the following conditions:
 - The `ec2:InstanceType` must be `t3.micro` AND
@@ -88,3 +89,5 @@ Create an IAM policy that allows full access to Amazon EC2, subject to the follo
 Create a launch template and an EC2 Spot Fleet request using Terraform in AWS.
 ## NAT_gateway_architecture
 Create a Virtual Private Cloud (VPC), public subnet, private subnet, NAT Gateway in the public subnet, Elastic IP for the NAT Gateway, and an Internet Gateway (which is attached to the VPC). Create a custom route table and associate it to the public subnet; another route table will be created and associated to the private subnet. A custom default security group and default network access control list (network ACL) is defined in the Terraform code. A network ACL is created and applied to the public and private subnets for example purposes.
+## S3_Cross_Region_Replication
+Configure Amazon S3 Cross Region Replication from a source bucket in a region to a destination bucket in another region.
