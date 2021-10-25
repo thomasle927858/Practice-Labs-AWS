@@ -1,0 +1,19 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Allow full admin access to S3 for the 9d1ee2d2-ac45-409d-90f3-d25e226d0a9e bucket and objects within it",
+      "Action": "s3:*",
+      "Effect": "Allow",
+      "Resource": [
+        "arn:aws:s3:::9d1ee2d2-ac45-409d-90f3-d25e226d0a9e",
+        "arn:aws:s3:::9d1ee2d2-ac45-409d-90f3-d25e226d0a9e/*"
+      ],
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::AWS-account-ID:user/username"
+        ]
+      }
+    }
+  ]
+}
