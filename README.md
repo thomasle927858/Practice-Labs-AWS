@@ -91,3 +91,5 @@ Create a launch template and an EC2 Spot Fleet request using Terraform in AWS.
 Create a Virtual Private Cloud (VPC), public subnet, private subnet, NAT Gateway in the public subnet, Elastic IP for the NAT Gateway, and an Internet Gateway (which is attached to the VPC). Create a custom route table and associate it to the public subnet; another route table will be created and associated to the private subnet. A custom default security group and default network access control list (network ACL) is defined in the Terraform code. A network ACL is created and applied to the public and private subnets for example purposes.
 ## S3_Cross_Region_Replication
 Configure Amazon S3 Cross Region Replication from a source bucket in a region to a destination bucket in another region.
+## Gateway_VPC_Endpoint_for_S3
+Create a Virtual Private Cloud (VPC) gateway endpoint for Amazon S3. VPC endpoints are highly available and allow connections between a VPC and supported services, such as Amazon S3, so VPC connectivity to the Internet is not required.
