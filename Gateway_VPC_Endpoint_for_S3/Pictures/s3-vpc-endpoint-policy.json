@@ -1,0 +1,20 @@
+{
+  "Id": "ba7d4c1a-cee6-462b-bebe-b5540bed031a",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Allow full access to 9d1ee2d2-ac45-409d-90f3-d25e226d0a9e bucket and objects within it",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::AWS-account-ID:user/username"
+        ]
+      },
+      "Action": "s3:*",
+      "Resource": [
+	       "arn:aws:s3:::9d1ee2d2-ac45-409d-90f3-d25e226d0a9e",
+         "arn:aws:s3:::9d1ee2d2-ac45-409d-90f3-d25e226d0a9e/*"
+      ]
+    }
+  ]
+}
