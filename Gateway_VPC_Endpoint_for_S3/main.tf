@@ -72,7 +72,7 @@ resource "aws_s3_bucket" "example" {
   policy = file("${path.module}/bucket_policy_9d1ee2d2-ac45-409d-90f3-d25e226d0a9e.json")
 
   versioning {
-    enabled = true # source bucket must have versioning enabled for replication
+    enabled = true
   }
 
   server_side_encryption_configuration {
