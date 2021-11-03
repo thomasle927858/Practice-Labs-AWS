@@ -93,3 +93,5 @@ Create a Virtual Private Cloud (VPC), public subnet, private subnet, NAT Gateway
 Configure Amazon S3 Cross Region Replication from a source bucket in a region to a destination bucket in another region.
 ## Gateway_VPC_Endpoint_for_S3
 Create a gateway Virtual Private Cloud (VPC) endpoint for Amazon S3. VPC endpoints are highly available and allow connections between a VPC and supported services, such as Amazon S3, so VPC connectivity to the Internet is not required.
+## VPC_endpoints_for_SSM
+Connect remotely to the EC2 instance using AWS Systems Manager Session Manager *without* having to use an internet gateway, a public IPv4 address assigned to one of the elastic network interfaces of the EC2 instance, and a security group rule that allows port 22 inbound traffic. Create and configure VPC endpoints for AWS Systems Manager.
