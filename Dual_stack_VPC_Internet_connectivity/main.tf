@@ -228,24 +228,3 @@ resource "aws_instance" "private" {
     "Project ID" = "69a201d1-63c6-4184-b000-8d54931a03e6"
   }
 }
-
-/*
-
-data "aws_iam_instance_profile" "AmazonSSMManagedInstanceCore" {
-  name = "AmazonSSMManagedInstanceCore"
-}
-
-# create an instance in the "private" subnet of the example-01 VPC
-resource "aws_instance" "test1" {
-  iam_instance_profile = data.aws_iam_instance_profile.AmazonSSMManagedInstanceCore.role_name
-  instance_type = "t3.micro"
-  launch_template {
-    id = aws_launch_template.Amazon_Linux_2.id
-  }
-  tags = {
-    "Name" = "test1"
-    "Project ID" = "69a201d1-63c6-4184-b000-8d54931a03e6"
-  }
-}
-
-*/
