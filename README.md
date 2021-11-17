@@ -6,6 +6,8 @@
 
 [Labs](#labs)
 
+[Projects](#projects)
+
 # Terms of Use
 Effective date: September 18, 2021
 
