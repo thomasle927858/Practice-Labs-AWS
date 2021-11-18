@@ -32,7 +32,7 @@
   </tr>
 </table>
 
-## Route Tables for subnets
+## Route Tables associated with subnets
 ### Route tables for private subnets in Spoke-1 VPC containing EC2 instances
 - rtb-04e452a72626626e0 / VPC-Spoke-1-private-rt-us-west-2a for subnet-071e8f2715b3ce110 / VPC-Spoke-1-private-us-west-2a
 - rtb-07406de34779c3e96 / VPC-Spoke-1-private-rt-us-west-2b for subnet-04ffe804f802f0e98 / VPC-Spoke-1-private-us-west-2b
